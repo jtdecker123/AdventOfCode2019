@@ -18,4 +18,5 @@ def test():
             if opCode(point,insNumber,lst)[0] == 19690720:
                 ans = [i1,i2]
                 return ans
-print(test())
+answer = test()
+print(100 * answer[0] + answer[1])
